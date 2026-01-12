@@ -5,9 +5,8 @@ import "fmt"
 func main() {
 	x := 10
 	if x > 5 {
-		fmt.Println(x)
-		x := 5
-		fmt.Println(x)
+		a, x := 5, 20
+		fmt.Println(a, x)
 	}
 	fmt.Println(x)
 }
