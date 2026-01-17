@@ -11,7 +11,7 @@ func main() {
 			fmt.Println(i, "：3で割り切れるが2では割り切れない")
 		case i%7 == 0:
 			fmt.Println(i, "ループ終了。。。はしない！")
-			break
+			// break
 		default:
 			fmt.Println(i, "：退屈な数")
 		}
